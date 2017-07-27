@@ -1,0 +1,103 @@
+body {
+ background: url("http://res.cloudinary.com/bergquist/image/upload/v1496748828/BCKG-1-pexels-photo-94576_web_rqmcs0.png");
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-attachment: fixed;
+ background-size: cover;
+ color: white;
+ font-family: "Times New Roman", Times, serif;
+ min-height: 100%;
+ min-width: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ display: block;
+ font-size: 18px;
+ letter-spacing: 2px;
+}
+
+.back {
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.back a {
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: lowercase;
+}
+
+.back a i {
+  vertical-align: middle;
+}
+
+.container-fluid {
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 35%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.row {
+ margin: 0 auto;
+}
+
+.quote {
+ font-size: 1.3em;
+ padding: 8px 0;
+}
+
+.quote:after {
+ content: ".";
+}
+
+.author {
+	display: hide;
+ font-size: 1.1em;
+ font-style: italic;
+ padding-bottom: 10px;
+}
+
+.buttons {
+ display: inline-block;
+ font-size: 2em;
+ padding: 0 15px;
+}
+
+.generate img {
+  height: 40px;
+}
+
+.generate:hover {
+ cursor: pointer;
+}
+
+.tweetthis {
+	font-size: 1.5em;
+ display: none;
+
+}
+
+.tweetthis:hover {
+cursor: pointer;
+
+}
+
+a,
+a:hover {
+ color: #fff;
+ text-decoration: none;
+}
+
+.footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+ font-size: 0.8em;
+ padding-bottom: 10px;
+}
